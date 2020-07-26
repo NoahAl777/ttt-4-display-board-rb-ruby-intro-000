@@ -2,9 +2,9 @@
 # out the current state.
 x_or_o = ["","","","","","","","","",""]
 def display_board(x_or_o)
-  puts " #{[0]} | #{[1]} | #{[2]} "
+  puts " #{x_or_o[0]} | #{[x_or_o1]} | #{[x_or_o2]} "
   puts "-----------"
-  puts " #{[3]} | #{[4]} | #{[5]} "
+  puts " #{[x_or_o3]} | #{[x_or_o4]} | #{[x_or_o5]} "
   puts "-----------"
-  puts " #{[6]} | #{[7]} | #{[8]} "
+  puts " #{[x_or_o6]} | #{[x_or_o7]} | #{[x_or_o8]} "
 end
